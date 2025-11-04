@@ -1,0 +1,109 @@
+@media (min-width: 768px) {
+    .app-bar__toggle {
+        display: none;
+    }
+
+    .app-bar__menu {
+        position: static;
+        width: auto;
+        transform: none;
+        opacity: 1;
+        visibility: visible;
+        flex-direction: row;
+        background: none;
+        box-shadow: none;
+        z-index: 1;
+    }
+    .app-bar__menu a,
+    .app-bar__menu button {
+        padding: 0;
+        width: auto;
+        margin-left: 1rem;
+        border: none;
+    }
+
+    .dropdown {
+        width: auto;
+    }
+
+    .dropdown-toggle {
+        padding: 0;
+        width: auto;
+        margin-left: 1rem;
+        border: none;
+        border-bottom: none;
+
+        display: inline-flex;
+        align-items: center;
+        gap: 0.5rem;
+    }
+
+    .dropdown-menu {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background-color: var(--surface-color);
+        border-radius: 8px;
+        box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+        min-width: 200px;
+        z-index: 100;
+        background-color: white;
+    }
+
+    .dropdown-menu a {
+        padding: 1rem 1rem;
+        width: 100%;
+        color: var(--secondary-color);
+        font-weight: bold;
+        border-bottom: 1px solid #EEE;
+        margin-left: 0; 
+    }
+
+    .dropdown-menu a:hover {
+        background-color: #f1f1f1;
+    }
+
+    .page-container {
+        max-width: 960px;
+        margin: 0 auto;
+    }
+
+    .page-content {
+        padding: 1.5rem;
+    }
+
+    #story-map {
+        height: 50vh; 
+
+    }
+
+    .features-grid {
+        grid-template-columns: repeat(3, 1fr); /* 3 kolom di tablet */
+    }
+
+    .story-list {
+        grid-template-columns: repeat(2, 1fr); 
+    }
+}
+
+@media (min-width: 1024px) {
+    .page-container {
+        max-width: 1200px;
+    }
+
+    .story-list {
+        grid-template-columns: repeat(3, 1fr); 
+    }
+
+    
+}
+
+@media (min-width: 1440px) {
+    .page-container {
+        max-width: 1400px;
+    }
+    
+    .story-list {
+        grid-template-columns: repeat(4, 1fr); 
+    }
+}
