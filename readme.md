@@ -94,9 +94,6 @@ Ini akan mengoptimasi *file*, me-*minify* kode, dan menyuntikkan *logic* Service
 
 Menjalankan server statis (`http-server`) untuk menyajikan file dari folder `/dist`. Ini adalah cara terbaik untuk menguji *build* produksi dan fungsionalitas PWA/Offline Anda secara lokal.
 
-### `npm run deploy`
-
-Membangun aplikasi (menjalankan `npm run build`) lalu secara otomatis men-*deploy* hasilnya ke GitHub Pages.
 
 ## 🌟 Tentang Pembuat
 
@@ -106,5 +103,6 @@ Membangun aplikasi (menjalankan `npm run build`) lalu secara otomatis men-*deplo
 - **GitHub:** [github.com/alamahul](https://github.com/alamahul)
 
 ---
+
 
 *Proyek ini dibuat sebagai bagian dari submission "Menjadi Pengembang Web Expert" (Richer PWA) di Dicoding.*
