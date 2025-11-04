@@ -105,4 +105,5 @@ Menjalankan server statis (`http-server`) untuk menyajikan file dari folder `/di
 ---
 
 
-*Proyek ini dibuat sebagai bagian dari submission "Menjadi Pengembang Web Expert" (Richer PWA) di Dicoding.*
+*Proyek ini dibuat sebagai bagian dari submission "Belajar Pengembangan Web Intermediate" di Dicoding.*
+
