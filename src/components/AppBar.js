@@ -118,7 +118,7 @@ class AppBar extends HTMLElement {
 
     render() {
         this.innerHTML = `
-            <img src="/images/logo.png" alt="Logo" class="app-bar__logo"> 
+            <img src="./images/logo.png" alt="Logo" class="app-bar__logo"> 
             <h1 class="app-bar__brand">Berbagi Cerita</h1>
             <button id="hamburgerButton" class="app-bar__toggle" aria-label="Buka menu navigasi">
                 <span></span>
@@ -131,5 +131,6 @@ class AppBar extends HTMLElement {
         `;
     }
 }
+
 
 customElements.define('app-bar', AppBar);
