@@ -1416,7 +1416,16 @@ input:checked + .slider:before {
     margin-right: 4px;
 }
 
-
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
 @media (min-width: 768px) {
     .app-bar__toggle {
         display: none;
@@ -1527,4 +1536,4 @@ input:checked + .slider:before {
     }
 }
 
-/*# sourceMappingURL=main.57a0038885d9ab4fc8f5.css.map*/
+/*# sourceMappingURL=main.dcca371ea51d836a93b9.css.map*/
