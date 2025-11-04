@@ -77,7 +77,7 @@ document.addEventListener('logout-request', () => {
 if ('serviceWorker' in navigator) {
     window.addEventListener('load', () => {
         navigator.serviceWorker
-            .register('/service-worker.js') // Daftarkan file SW dari 'dist'
+            .register('service-worker.js') // Daftarkan file SW dari 'dist'
             .then((registration) => {
                 console.log('Service Worker registered. Scope:', registration.scope);
             })
@@ -85,4 +85,5 @@ if ('serviceWorker' in navigator) {
                 console.error('Service Worker registration failed:', error);
             });
     });
+
 }
